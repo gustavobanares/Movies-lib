@@ -22,8 +22,6 @@ const Home = () => {
     getTopRatedMovies(topRatedUrl);
   }, []);
 
-  console.log(topMovies);
-
   return (
     <div className="container">
       <h2 className="title">Melhores filmes:</h2>
